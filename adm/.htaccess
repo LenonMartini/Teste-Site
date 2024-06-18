@@ -1,0 +1,28 @@
+##descomentar as duas proximas linhas pra funcionar no servidor
+#AddHandler php7-script .php
+#suPHP_ConfigPath /home/algodaodoce4/
+
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#RewriteRule   ^.*$ - [L]
+#RewriteRule !\.(gif|jpg|png|css|js|swf|txt|xml|pdf|xls|xlsx|ico|doc|docx|rtf|php)$ index.php
+#RewriteRule ^lista-de-produtos.txt lista-de-produtos.php
+#RewriteRule ^quem-somos quem-somos.php
+#RewriteRule ^marcas marcas.php
+#RewriteRule ^como-chegar como-chegar.php
+#RewriteRule ^vendedores vendedores.php
+#RewriteRule ^carrinho carrinho.php
+#RewriteRule ^lista-de-produtos.txt lista-de-produtos.php
+#RewriteRule ^categorias/(.*)$ categoria.php?id=$1
+#RewriteRule ^busca categoria.php
+#RewriteRule ^produtos/(.*)$ single.php?id=$1
+
+#RewriteRule ^(.*)$ especial.php?id=$1
+
+#RewriteRule ^eventos/([A-z-]+|[0-9-]+|[A-z-0-9-]+)/([A-z-]+|[0-9-]+|[A-z-0-9-]+) single.php?url=$2
+
+
+#php

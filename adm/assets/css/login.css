@@ -1,0 +1,20 @@
+
+
+@font-face {
+    font-family: 'VoguePlain';
+    src: url('fonts/VoguePlain.eot?#iefix') format('embedded-opentype'),  url('fonts/VoguePlain.woff') format('woff'), url('fonts/VoguePlain.ttf')  format('truetype'), url('fonts/VoguePlain.svg#VoguePlain') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{background-color: #F8F8F8}
+.form-login input{display: inline-block;}
+.form-login input[type=text]{width: 230px; box-sizing: border-box; padding-left: 30px; padding-left: 35px; height: 38px; font-family: vogueplain; border:2px solid #E4E4E4; background-image: url(../img/email.png) !important; background-color: #FFF; background-repeat: no-repeat; background-position: 5% center; background-size: 20px;}
+.form-login input[type=password]{width: 230px; box-sizing: border-box; padding-left: 30px; padding-left: 35px; height: 38px; font-family: vogueplain; border:2px solid #E4E4E4; background-image: url(../img/password.png) !important; background-color: #FFF; background-repeat: no-repeat; background-position: 5% center; background-size: 20px;}
+.form-login input[type=submit]{background-color: #222222;width: 230px; height: 38px;font-family: 'vogueplain'; font-size: 20px; font-weight: bold; border: 0; color: #FFF; border-radius: 0; background-position: 10px 5px; transition:ease .3s;}
+.title-input{width: 230px; display: inline-block; text-align: left; font-size: 11px; color:#6E6E6E; font-family: Verdana; }
+.form-login input[type=submit]:hover{background-color: #5da423;}
+.font{font-family: vogueplain; font-size: 14px; color: #525252;}
+.forgot{font-family: vogueplain; font-size: 12px; color:#525252;}
+.bg-bd{background-color: #FFF; border: 1px solid #EEEEEE;}
